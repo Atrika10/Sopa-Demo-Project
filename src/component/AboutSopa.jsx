@@ -3,7 +3,7 @@ import React from "react";
 function AboutSopa() {
   return (
     <>
-      <div className="w-[85%] m-auto py-[8rem]">
+      <div className="w-[70%] m-auto py-[8rem]">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div>
             <h1 className=" pb-1 border-b-2 inline border-amber-400">
@@ -20,14 +20,14 @@ function AboutSopa() {
 
           <div className="flex justify-center items-center">
             <img
-              className="h-[22rem] w-5xl object-cover rounded-2xl rounded-br-[6rem]"
+              className="h-[22rem] w-5xl object-cover rounded-2xl rounded-br-[10rem] rounded-tl-[10rem]"
               src="middleImg.png"
               alt="buildingImg" 
             />
           </div>
 
           <div className="relative flex flex-col justify-center items-center">
-            <div className="bg-white rounded-[50%] p-1 md:absolute top-[-12rem] left-[-5rem] ">
+            <div className="bg-white rounded-[50%] p-3 md:absolute top-[-12rem] left-[-5rem] ">
               <img
                 className="rounded-[50%] w-[12rem]"
                 src="topImg.png"

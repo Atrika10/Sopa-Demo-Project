@@ -57,8 +57,8 @@ function Footer() {
               PA
             </h2>
           </div>
-          <p className="text-lg opacity-90">The Soybean Processors Association of India</p>
-          <div className="w-32 h-px bg-yellow-400 mx-auto mt-4"></div>
+          <p className="text-lg opacity-90 ">The Soybean Processors Association of India</p>
+          <div className="w-32 h-px  bg-white mx-auto mt-4"></div>
         </div>
 
         {/* Footer Links Grid */}
