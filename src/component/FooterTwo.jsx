@@ -5,10 +5,10 @@ import React from "react";
 
 function FooterTwo() {
   return (
-    <div className=" bg-[#f4eff4] py-20 mt-20" id="contactUs">
+    <div className=" bg-[#f4eff4] py-5 mt-20" id="contactUs">
       <div className="max-w-6xl mx-auto">
         
-        <div className="flex flex-col md:flex-row lg:justify-between p-10 justify-center items-center md:items-start gap-20 text-center md:text-left">
+        <div className="flex flex-col md:flex-row lg:justify-between p-6 justify-center items-center md:items-start gap-5   text-center md:text-left">
           {/* Left Section - Brand and Description */}
           <div className="space-y-4 flex flex-col justify-center items-center md:items-start">
             <h2 className="md:text-4xl text-2xl font-bold text-orange-500">
@@ -35,7 +35,8 @@ function FooterTwo() {
             </div>
           </div>
 
-          {/* Middle Section - Company Links */}
+          <div className="flex flex-row gap-10 md:gap-6 justify-center my-2 md:my-0">
+              {/* Middle Section - Company Links */}
           <div className="space-y-4 text-gray-700 hover:text-gray-500">
             <h3 className="text-lg font-semibold pt-3">COMPANY</h3>
             <nav className="flex flex-col space-y-2">
@@ -74,6 +75,8 @@ function FooterTwo() {
               <p className=" text-sm">contact@pcsglobal.dev</p>
             </div>
           </div>
+          </div>
+          
 
 
           {/* newsletter subscription */}
